@@ -1,10 +1,11 @@
+
 #clock{
-    width: 40vw;
-    height: 40vw;
+    width: 60vw;
+    height: 60vw;
     margin: auto;
     position: relative;
     background-color: rgb(200, 255, 0);
-    border-radius: 20vw;
+    border-radius: 30vw;
 }
 #clock>img{
     width: 100%;
@@ -16,38 +17,35 @@
     align-items: center;
 }
 #hrs{
-    width: 10vw;
+    width: 15vw;
     height: 5px;
     background-color: black;
     border-radius: 5px;
     position: absolute;
-    top: 19.7vw;
-    left: 19.9vw;
+    top: 29.6vw;
+    left: 29.9vw;
     /* transform: rotate(-90deg); */
     transform-origin: 0% 50% 0vw;
 }
 #min{
-    width: 14vw;
+    width: 20vw;
     height: 4px;
     background-color: black;
     border-radius: 5px;
     position: absolute;
-    top: 19.7vw;
-    left: 19.9vw;
+    top: 29.6vw;
+    left: 29.9vw;
     /* transform: rotate(-90deg); */
     transform-origin: 0% 50% 0vw;
 }
 #sec{
-    width: 15vw;
+    width: 23vw;
     height: 2px;
     background-color: black;
     border-radius: 5px;
     position: absolute;
-    top: 19.7vw;
-    left: 19.9vw;
+    top: 29.6vw;
+    left: 29.9vw;
     /* transform: rotate(-89.7deg); */
     transform-origin: 0% 50% 0vw;
-}
-main{
-    margin: 10vw;
 }
